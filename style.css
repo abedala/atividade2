@@ -57,10 +57,9 @@ main{
     display: flex;
     flex-direction: row;
     margin-top: 40px;
+    height: 550px;
 }
-img{
-    width: 335 px;
-}
+
 a:hover{
     transition: 0.3s all;
     color: blue;
@@ -72,4 +71,12 @@ a:hover{
     border-radius: 20px;
     background-color: #185D9E;
     
+}
+footer{
+    background-color: #061D3F;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 10vh;
+    text-align: center;
 }

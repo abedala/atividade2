@@ -1,5 +1,6 @@
 body{
-    background-color: #061D3F;
+    background: rgb(45,68,181);
+    background: linear-gradient(90deg, rgba(45,68,181,1) 0%, rgba(21,166,254,1) 100%);
     color: white;
     font-family: bungee;
     max-width:1200px ;
@@ -55,7 +56,7 @@ h2{
 }
 
 span{
-    color: black;
+    color: rgb(71, 125, 95);
 }
 
 p{
@@ -81,7 +82,7 @@ form{
 form [type="submit"]{
     height:50px;
     width: 50%;
-    background-color:black;
+    background-color:rgb(71, 125, 95);
     color:white;
     font-weight: bold;
 
