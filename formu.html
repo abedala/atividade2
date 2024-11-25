@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="formu.css">
+</head>
+
+<body>
+    <div id="form-container">
+        <h2>Cadastro</h2>
+        <form id="registration-form">
+            <input type="text" id="name" placeholder="Nome Completo" required>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <input type="text" id="username" placeholder="Usuário" required>
+            <input type="password" id="password" placeholder="Senha" required>
+            <input type="password" id="confirm-password" placeholder="Confirmar Senha" required>
+            <input type="tel" id="phone" placeholder="Telefone" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <p id="login-link">Já tem uma conta? <a href="login.html" id="switch-to-login">Faça login</a></p>
+    </div>
+
+    <script src="formu.js"></script>
+</body>
+</html>
